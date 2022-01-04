@@ -47,3 +47,30 @@ h1 {
   color: white;
   font-weight: 700;
 }
+.body-container {
+  background-image: url(../assets/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+}
+.body-container-left {
+  text-align: center;
+  width: 50%;
+}
+.body-container-left img {
+  width: 50%;
+  margin-left: 30px;
+  border-radius: 30px;
+}
+.body-container-right {
+  width: 50%;
+  margin-right: 5%;
+}
+.body-container-right p {
+  text-align: justify;
+  margin-right: 30px;
+}
+.downlode-btn {
+  border: none;
+  margin-top: 20px;
+}
