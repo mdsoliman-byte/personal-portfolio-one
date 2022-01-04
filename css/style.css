@@ -1,6 +1,49 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: ;
+
+  font-family: "Poppins", sans-serif;
+}
+.color-text {
+  color: orange;
+}
+h1 {
+  font-size: 50px;
+}
+.continer-top {
+  display: flex;
+}
+.top-section {
+  background-image: url(../assets/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.top-section-left-bar {
+  margin-top: 40px;
+  width: 50%;
+  padding: 5%;
+}
+.top-section-left-bar h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.top-section-left-bar p {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.top-section-right-bar {
+  width: 50%;
+  margin-top: 40px;
+}
+.top-section-right-bar img {
+  margin-top: 20px;
+  width: 70%;
+  border-radius: 50px;
+}
+.hire-me-btn {
+  text-decoration: none;
+  background-image: linear-gradient(orange, rgb(159, 223, 9));
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }
